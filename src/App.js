@@ -28,7 +28,7 @@ const consultarAPI = () => {
   return (
     <Contenedor>
         <Boton
-          onClick={consultarAPI}
+          onClick={ () => consultarAPI() }
         >
           Obtener frase
         </Boton>
