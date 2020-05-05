@@ -33,8 +33,7 @@ function App() {
 	return (
 		<Contenedor>
       <Frase 
-        
-      
+        frase={frase}      
       />
 			<Boton onClick={consultarAPI}>Obtener frase</Boton>
 		</Contenedor>
