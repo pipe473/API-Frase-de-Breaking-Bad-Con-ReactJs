@@ -6,6 +6,7 @@ const ContenedorFrase = styled.div`
     border-radius: .5rem;
     background-color: #fff;
     max-width: 800px;
+    margin-top: 10rem;
 `;
 
 const Frase = ({ frase }) => {
