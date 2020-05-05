@@ -21,14 +21,17 @@ const Boton = styled.button`
 function App() {
 
 const consultarAPI = () => {
-  console.log('consultando...');
+  const resultado = fetch('https://breaking-bad-quotes.herokuapp.com/v1/quotes');
+
+  console.log(resultado);
+  
   
 }
 
   return (
     <Contenedor>
         <Boton
-          onClick={ () => consultarAPI() }
+          onClick={ consultarAPI }
         >
           Obtener frase
         </Boton>
