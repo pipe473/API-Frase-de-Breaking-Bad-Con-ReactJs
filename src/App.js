@@ -19,9 +19,17 @@ const Boton = styled.button`
 `;
 
 function App() {
+
+const consultarAPI = () => {
+  console.log('consultando...');
+  
+}
+
   return (
     <Contenedor>
-        <Boton>
+        <Boton
+          onClick={consultarAPI}
+        >
           Obtener frase
         </Boton>
       </Contenedor>
